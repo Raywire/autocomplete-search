@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  text-align: center;
+}
+
+form.search-form-container {
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+
+form > input {
+  width: 80%;
+  max-width: 800px;
+  font-size: 1.2em;
+  padding: 5px 3px;
+}
+
+.query-results-list {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.query-results-list > ul {
+  padding: 0;
+  margin: 0;
+  background-color: gainsboro;
+}
+
+li.result-item {
+  list-style: none;
+  padding: 15px 10px;
+}
+
+li.result-item:hover {
+  background-color: black;
+  color: gainsboro;
+  cursor: pointer;
+}
+
+p.no-results-prompt {
+  text-align: center;
+}
+
+div.character-display-container {
+  width: 60%;
+  margin: 10px auto;
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+span.character-info-title {
+  font-weight: bold;
+}
